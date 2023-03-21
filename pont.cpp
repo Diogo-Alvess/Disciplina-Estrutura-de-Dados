@@ -235,7 +235,7 @@ onde:
 I num e dividendo;  
 I div e o divisor;  
 I q e o quociente;  
-I r e o resto.  
+I r e o resto.  */
 
 void divisao(int num, int div, int *q, int *r)
 {
@@ -258,7 +258,7 @@ int main()
 
 }
 
-*/
+
 
 
 
