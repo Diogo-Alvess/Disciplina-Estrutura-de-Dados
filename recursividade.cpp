@@ -164,10 +164,10 @@ int main()
 }
 
 
-*6. Desenvolver uma func ̧ao recursiva para calcular e retornar  ̃
+6. Desenvolver uma func ̧ao recursiva para calcular e retornar  ̃
 a quantidade de valores pares de um vetor com n numeros  ́
 inteiros.
-int contaPares(int n, int vet[]);*/
+int contaPares(int n, int vet[])
 
 int contaPares(int n, int vet[])
 {
@@ -211,3 +211,197 @@ int main()
 
     return 0;
 }
+
+5 Desenvolver uma função recursiva para calcular e retornar
+uma string de caracteres contendo ‘0’ e ‘1’ correspondente
+à versão binária de um número inteiro positivo dado.
+
+
+void binaria(int n)
+{
+    if( n == 1 )
+    {
+        cout << n;
+    }
+    else
+    {
+        binaria(n/2);
+        cout << n%2;
+    }
+
+}
+
+int main()
+{
+    int n;
+
+    cin >> n;
+
+    binaria(n);
+
+    return 0;
+}
+
+26. Escreva uma fun ̧c ̃ao recursiva que calcule a soma dos n ́umeros de a at ́e b, onde a e b s ̃ao dados
+como parˆametro para a fun ̧c ̃ao e s ̃ao tais que a < b.
+int soma(int a, int b);
+
+
+
+int soma(int a, int b)
+{
+    if( a >= b )
+    {
+        return a;
+    }
+    else
+    {
+        return a + soma(a+1, b);
+    }
+
+}
+
+int main()
+{
+    int n;
+    int m;
+
+
+    cin >> n;
+    cin >> m;
+
+    cout << soma(n, m);
+
+    return 0;
+}
+
+27. O n ́umero de d ́ıgitos de um n ́umero inteiro positivo pode ser determinado atrav ́es de sucessivas
+divis ̃oes por 10 (sem guardar o resto) at ́e que o n ́umero seja menor do que 10, consistindo
+de apenas 1 d ́ıgito. Implemente uma fun ̧c ̃ao recursiva que calcule o n ́umero de d ́ıgitos de um
+inteiro positivo n.
+int numDigitos(int n);
+
+
+int numDigitos(int n)
+{
+    if( n < 10 )
+    {
+        return 1;
+    }
+    else
+    {
+        return 1 + numDigitos(n/10);
+    }
+
+}
+
+int main()
+{
+    int n;
+
+    cin >> n;
+
+    cout << numDigitos(n);
+
+    return 0;
+}
+
+29. Escreva uma fun ̧c ̃ao recursiva que fa ̧ca a busca por uma chave (um valor espec ́ıfico) em um
+array ordenada usando o algoritmo da busca bin ́aria. A fun ̧c ̃ao recebe como parˆametros o array
+de inteiros, seu tamanho e a chave a ser procurada e deve retornar se encontrou ou n ̃ao o valor
+da chave.
+bool buscaBinaria(int vet[], int n, int chave);
+
+bool buscaBinaria(int vet[], int n, int chave)
+{
+    float c = 0;
+     if( vet[n] == 1)
+     {
+         if(vet[n] == chave)
+         {
+             return true;
+         }
+         else{
+            return false;
+         }
+     }
+
+     c = buscaBinaria(vet, n-1, chave);
+
+     if(vet[n-1] == chave )
+     {
+         return c + true;
+     }
+     else
+
+        return c + false;
+
+
+}
+
+int main()
+{
+    int n;
+    int chave;
+    int *vet = new int[n];
+
+    cout << "digite o valor da chave: ";
+    cin >> chave;
+    cout << "digite n: ";
+    cin >> n;
+    cout << "preencha o vetor: ";
+
+    for(int i = 0; i< n ; i++)
+    {
+        cin >> vet[i];
+    }
+
+    cout << buscaBinaria(vet, n, chave);
+
+    delete [] vet;
+    return 0;
+
+}
+
+28. Escreva uma fun ̧c ̃ao recursiva que determina se um vetor de caracteres  ́e um pal ́ındromo. A
+fun ̧c ̃ao recebe como parˆametros o tamanho e o vetor e deve retornar true ou false.
+bool ehPalindromo(char a[], int n);
+
+bool ehPalindromo(char a[], int n){
+    // Caso base: se a string for vazia ou tiver apenas um caractere, é um palíndromo
+    if (n <= 1) {
+        return true;
+    }
+    // Caso recursivo: se o primeiro e o último caracteres forem iguais,
+    // chama a função recursivamente para o subvetor interno, excluindo os extremos
+    else if (a[0] == a[n-1]) {
+        return ehPalindromo(a+1, n-2);
+    }
+    // Se não forem iguais, não é um palíndromo
+    else {
+        return false;
+    }
+}
+
+
+int main()
+{
+    int n;
+    cout << "digite o valor de n: ";
+    cin >> n;
+
+    char *a = new char[n];
+
+    for(int i = 0; i< n; i++)
+    {
+        cin >> a[i];
+    }
+
+    cout << ehPalindromo(a, n);
+
+    delete [] a;
+    return 0;
+
+}
+
+*/
