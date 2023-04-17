@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1681682726 source:c:\users\samsung\downloads\labprog2_projeto_aula04\aula04\main.cpp
+	<iostream>
+	"Aluno.h"
+	"Prova.h"
+
+1681677034 c:\users\samsung\downloads\labprog2_projeto_aula04\aula04\aluno.h
+	<iostream>
+	<string>
+
+1681679937 c:\users\samsung\downloads\labprog2_projeto_aula04\aula04\prova.h
+	<iostream>
+
+1681682834 source:c:\users\samsung\downloads\labprog2_projeto_aula04\aula04\prova.cpp
+	"Prova.h"
+
+1681677592 source:c:\users\samsung\downloads\labprog2_projeto_aula04\aula04\aluno.cpp
+	"Aluno.h"
+
