@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1681944512 source:c:\users\samsung\downloads\matrizlin\main.cpp
+	<iostream>
+	"MatrizLin.h"
+
+1681774901 c:\users\samsung\downloads\matrizlin\matrizlin.h
+
+1681935279 source:c:\users\samsung\downloads\matrizlin\matrizlin.cpp
+	<iostream>
+	<cstdlib>
+	"MatrizLin.h"
+
