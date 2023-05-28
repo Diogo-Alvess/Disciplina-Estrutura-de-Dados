@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1685315455 source:c:\users\samsung\downloads\labprog2_projeto_aula06\aula06\main.cpp
+	<iostream>
+	"Ponto.h"
+	"ListaCont.h"
+
+1525656607 c:\users\samsung\downloads\labprog2_projeto_aula06\aula06\ponto.h
+	<cmath>
+
+1683586405 c:\users\samsung\downloads\labprog2_projeto_aula06\aula06\listacont.h
+	"Ponto.h"
+
+1685315468 source:c:\users\samsung\downloads\labprog2_projeto_aula06\aula06\listacont.cpp
+	<iostream>
+	<cstdlib>
+	"Ponto.h"
+	"ListaCont.h"
+
