@@ -28,7 +28,7 @@ void particiona(ListaCont *l1, ListaCont *l2, ListaCont *l3)
 
 int main()
 {
-    ListaCont l(10);
+    /*ListaCont l(10);
 
     l.insereFinal(2);
     l.insereFinal(3);
@@ -47,9 +47,9 @@ int main()
     cout << "Numero de nos: " << l.numNos() << endl;
 
     cout << "os valores foram trocados trocou? " << l.troca(2, 5) << endl;
-    l.imprime();
+    l.imprime();*/
 
-    ListaCont l1(10);
+    /*ListaCont l1(10);
 
     l1.insereFinal(2);
     l1.insereFinal(3);
@@ -67,12 +67,78 @@ int main()
     particiona(&l1, &l2, &l3);
 
     l2.imprime();
-    l3.imprime();
+    l3.imprime();*/
 
 
 
     //cout << l.troca(2,4) << endl;
     //cout << l.aumentaCapacidade(15) << endl;
+
+    /*ListaCont listaInicial (2);
+
+    listaInicial.insereFinal(3);
+    listaInicial.insereFinal(4);
+
+    ListaCont la (5);
+
+    la.insereFinal(6);
+    la.insereFinal(7);
+    la.insereFinal(8);
+    la.insereFinal(9);
+    la.insereFinal(10);
+
+    ListaCont lb (3);
+
+    lb.insereFinal(0);
+    lb.insereFinal(1);
+    lb.insereFinal(2);
+
+    listaInicial.intercala(&la, &lb);*/
+
+    /*ListaCont listaL (5);
+
+    listaL.insereFinal(9);
+    listaL.insereFinal(3);
+    listaL.insereFinal(5);
+
+    int v[3] = {-5,6,7};
+
+    listaL.inserirVet(3, v);
+    */
+
+    /*ListaCont lL(5);
+
+    lL.insereFinal(3);
+    lL.insereFinal(2);
+    lL.insereFinal(5);
+    lL.insereFinal(5);
+    lL.insereFinal(9);
+
+    lL.copiar(5);*/
+
+    /*ListaCont lInicial(8);
+
+    lInicial.insereFinal(3);
+    lInicial.insereFinal(2);
+    lInicial.insereFinal(5);
+    lInicial.insereFinal(7);
+    lInicial.insereFinal(9);
+
+    int v[2] = {1,1};
+
+    cout << lInicial.insereValores(5,2,v) << endl;*/
+
+    ListaCont lInicial(7);
+
+    lInicial.insereFinal(2);
+    lInicial.insereFinal(3);
+    lInicial.insereFinal(4);
+    lInicial.insereFinal(5);
+    lInicial.insereFinal(6);
+    lInicial.insereFinal(7);
+    lInicial.insereFinal(8);
+
+    lInicial.moveParesInvertidos();
 
 
 

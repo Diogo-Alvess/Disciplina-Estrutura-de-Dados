@@ -28,7 +28,11 @@ public:
     void insereValores(int tam, int vet2[]);
     bool troca(int posicao1, int posicao2);
     bool aumentaCapacidade(int novoMax);
-
+    void intercala(ListaCont *la, ListaCont *lb);
+    void inserirVet(int tam, int v[]);
+    ListaCont* copiar(int valor);
+    bool insereValores(int k, int tam, int v[]);
+    ListaCont* moveParesInvertidos();
 };
 
 #endif // LISTACONT_H_INCLUDED
