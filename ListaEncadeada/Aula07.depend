@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1685713489 source:c:\users\samsung\downloads\labprog2_projeto_aula07\aula07\listaencad.cpp
+	<iostream>
+	<cstdlib>
+	"ListaEncad.h"
+
+1685712816 c:\users\samsung\downloads\labprog2_projeto_aula07\aula07\listaencad.h
+	"No.h"
+
+1526334908 c:\users\samsung\downloads\labprog2_projeto_aula07\aula07\no.h
+
+1685713509 source:c:\users\samsung\downloads\labprog2_projeto_aula07\aula07\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	"ListaEncad.h"
+
