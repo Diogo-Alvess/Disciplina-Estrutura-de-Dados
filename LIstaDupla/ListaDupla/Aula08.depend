@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1685848732 source:c:\users\samsung\downloads\labprog2_projeto_aula08\aula08\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	"ListaDupla.h"
+
+1685848695 c:\users\samsung\downloads\labprog2_projeto_aula08\aula08\listadupla.h
+	"NoDuplo.h"
+
+1526870650 c:\users\samsung\downloads\labprog2_projeto_aula08\aula08\noduplo.h
+
+1685848695 source:c:\users\samsung\downloads\labprog2_projeto_aula08\aula08\listadupla.cpp
+	<iostream>
+	<cstdlib>
+	"ListaDupla.h"
+
