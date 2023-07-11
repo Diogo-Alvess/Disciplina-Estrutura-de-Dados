@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1688935433 source:c:\users\samsung\downloads\labprog2_projeto_aula10 (2)\aula10\arvbin.cpp
+	<iostream>
+	<cstdlib>
+	<cstring>
+	<sstream>
+	"ArvBin.h"
+	<math.h>
+	<stack>
+
+1688935425 c:\users\samsung\downloads\labprog2_projeto_aula10 (2)\aula10\arvbin.h
+	"NoArv.h"
+
+1529358780 c:\users\samsung\downloads\labprog2_projeto_aula10 (2)\aula10\noarv.h
+
+1688935584 source:c:\users\samsung\downloads\labprog2_projeto_aula10 (2)\aula10\main.cpp
+	<iostream>
+	"ArvBin.h"
+

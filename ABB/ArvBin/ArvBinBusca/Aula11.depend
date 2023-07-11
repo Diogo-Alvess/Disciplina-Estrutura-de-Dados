@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1688997526 source:c:\users\samsung\downloads\labprog2_projeto_aula11\aula11\main.cpp
+	<iostream>
+	"ArvBinBusca.h"
+
+1689001045 c:\users\samsung\downloads\labprog2_projeto_aula11\aula11\arvbinbusca.h
+	"NoArv.h"
+
+1529888100 c:\users\samsung\downloads\labprog2_projeto_aula11\aula11\noarv.h
+
+1689002281 source:c:\users\samsung\downloads\labprog2_projeto_aula11\aula11\arvbinbusca.cpp
+	<iostream>
+	"ArvBinBusca.h"
+	<math.h>
+
